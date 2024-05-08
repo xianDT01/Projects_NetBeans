@@ -1,0 +1,5 @@
+<map version="1.0">
+	<mapID target="presentacion" url="./html/presentacion.html"/>
+	<mapID target="reglas" url="./html/reglas.html"/>
+	<mapID target="comofunciona" url="./html/comofunciona.html"/>
+</map>

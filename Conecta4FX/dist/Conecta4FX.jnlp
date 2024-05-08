@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Conecta4FX.jnlp">
+  <information>
+    <title>Conecta4FX</title>
+    <vendor>Xian Durán</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Conecta4FX.jar" size="11578" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="conecta4fx.Conecta4FX"  name="Conecta4FX" />
+  <update check="always"/>
+</jnlp>

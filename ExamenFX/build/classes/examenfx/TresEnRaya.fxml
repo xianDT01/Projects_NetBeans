@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="762.0" prefWidth="949.0" style="-fx-background-color: #00ffe0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examenfx.TresEnRayaController">
+   <children>
+      <Label layoutX="375.0" layoutY="23.0" text="Tres En Raya">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagen" fitHeight="150.0" fitWidth="200.0" layoutX="129.0" layoutY="99.0" onMouseClicked="#resultado" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagen2" fitHeight="150.0" fitWidth="200.0" layoutX="415.0" layoutY="99.0" onMouseClicked="#resultado2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagen3" fitHeight="150.0" fitWidth="200.0" layoutX="691.0" layoutY="99.0" onMouseClicked="#resultado3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagen4" fitHeight="150.0" fitWidth="200.0" layoutX="129.0" layoutY="266.0" onMouseClicked="#resultado4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagen5" fitHeight="150.0" fitWidth="200.0" layoutX="415.0" layoutY="266.0" onMouseClicked="#resultado5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagen6" fitHeight="150.0" fitWidth="200.0" layoutX="691.0" layoutY="266.0" onMouseClicked="#resultado6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagen7" fitHeight="150.0" fitWidth="200.0" layoutX="129.0" layoutY="429.0" onMouseClicked="#resultado7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagen8" fitHeight="150.0" fitWidth="200.0" layoutX="415.0" layoutY="429.0" onMouseClicked="#resultado8" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagen9" fitHeight="150.0" fitWidth="200.0" layoutX="691.0" layoutY="429.0" onMouseClicked="#resultado9" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/black.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="415.0" layoutY="689.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="125.0" text="Button" />
+      <ComboBox fx:id="seleccionar" layoutX="371.0" layoutY="606.0" prefHeight="46.0" prefWidth="208.0" />
+   </children>
+</AnchorPane>

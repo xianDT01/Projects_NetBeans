@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="579.0" stylesheets="@../css/estilos.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="actividad.di4.pkg1.CalcularRuta">
+   <children>
+      <ImageView fitHeight="524.0" fitWidth="942.0" layoutX="-4.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/parada2.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="atras" layoutX="12.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBotonAtras" prefHeight="54.0" prefWidth="120.0" stylesheets="@../../../css/css%20botones2.css" text="Atrás" />
+      <ImageView fitHeight="359.0" fitWidth="502.0" layoutX="47.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/calcular%20ruta.PNG" />
+         </image></ImageView>
+      <Button layoutX="495.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Buscar" />
+      <Label layoutX="20.0" layoutY="85.0" prefHeight="35.0" prefWidth="70.0" text="Desde">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="262.0" layoutY="85.0" prefHeight="17.0" prefWidth="59.0" text="hasta">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <ComboBox fx:id="ruta1" layoutX="97.0" layoutY="90.0" prefWidth="150.0" />
+      <ComboBox fx:id="ruta2" layoutX="333.0" layoutY="90.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

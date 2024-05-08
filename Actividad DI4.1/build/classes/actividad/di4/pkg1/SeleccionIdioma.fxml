@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.0" prefWidth="642.0" stylesheets="@../css/estilos.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="actividad.di4.pkg1.SeleccionIdioma">
+   <children>
+      <ImageView fitHeight="322.0" fitWidth="657.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/banderas.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="SeleccionParada" layoutX="91.0" layoutY="138.0" mnemonicParsing="false" onAction="#handleBotonParada" prefHeight="53.0" prefWidth="154.0" style="-fx-background-color: #008287;" stylesheets="@../../../css/css.css" text="Español" />
+      <Button fx:id="SeleccionParada" layoutX="433.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleBotonParada" prefHeight="53.0" prefWidth="154.0" style="-fx-background-color: #008287;" stylesheets="@../../../css/css.css" text="English" />
+   </children>
+</AnchorPane>
